@@ -1,8 +1,24 @@
-# React + Vite
+# Keylogger Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Keylogger Website is a web application built with React Three Fiber that provides download link to the keylogger app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **3D Visualization:** Renders captured keystrokes in a visually engaging 3D space, providing a unique perspective on typing activity.
+- **Interactive Interface:** Users can navigate the 3D scene.
+- **Real-time Updates:** Dynamically updates the visualization as new keystrokes are captured, providing a live view of typing activity.
+
+## Technologies Used
+
+- **React Three Fiber:** A React renderer for Three.js, enabling easy creation of 3D scenes in React applications.
+- **React Hooks:** Utilized for state management and component lifecycle management.
+- **WebGL:** Provides hardware-accelerated 3D rendering within web browsers.
+- **JavaScript (ES6+):** Used for logic implementation and event handling.
+
+**Note:** Zooming functionality has been disabled in this version to maintain the integrity of the visualization.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
